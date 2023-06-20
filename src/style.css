@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #000;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.leader-board {
+  max-width: 560px;
+  min-width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#recent-score,
+#add-score {
+  box-shadow: 2px 1px 3px #000;
+  border: 1px solid #000;
+  padding: 1.1rem;
+  margin: 0 1rem;
+  width: 50%;
+}
+
+#recent-score .recent-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 0.9rem;
+}
+
+.recent-title p {
+  margin-right: 0.9rem;
+}
+
+#add-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#form-input {
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+#form-input input {
+  margin: 0.9rem auto;
+}
+
+#form-input #submit {
+  float: right;
+  margin: 0;
+  text-align: center;
+}
+
+#scores-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+#scores-container li {
+  list-style: none;
+  margin: 0.1rem auto;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+#scores-container li:nth-child(2n + 2) {
+  background-color: #aaa;
+}
