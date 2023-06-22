@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,32 +14,47 @@ body {
   color: #000;
   min-height: 100vh;
   min-width: 100%;
+  background-color: #f2f2f21c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 1rem;
+  font-weight: 700;
 }
 
 .leader-board {
-  max-width: 560px;
-  min-width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  max-width: 660px;
+  min-width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+
+#recent-score {
+  margin: 1rem;
+  min-width: 100%;
 }
 
 #recent-score,
 #add-score {
-  box-shadow: 2px 1px 3px #000;
-  border: 1px solid #000;
+  border-radius: 10px;
   padding: 1.1rem;
   margin: 0 1rem;
-  width: 50%;
+  width: 100%;
+  color: #f2f2f2;
+  background-color: #0e70b1;
 }
 
 #recent-score .recent-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  margin: 0 0.9rem;
+  margin-bottom: 1rem;
 }
 
 .recent-title p {
@@ -50,38 +67,77 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+
+  /* margin: 1rem;
+  gap: 1rem; */
 }
 
 #form-input {
   margin: 1rem 0;
-  padding: 1rem 0;
+
+  /* padding: 1rem 0; */
+  max-width: 100%;
 }
 
 #form-input input {
-  margin: 0.9rem auto;
+  margin: 0.9rem;
+  width: 85%;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid snow;
 }
 
-#form-input #submit {
+#submit:hover {
+  background: #57ca0a;
+  cursor: pointer;
+  color: #f2f2f2;
+}
+
+#form-input #submit,
+#refresher {
   float: right;
-  margin: 0;
+  margin: 0 1rem;
   text-align: center;
+  padding: 0.5rem 1.3rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: 0.7s;
+}
+
+#refresher:hover {
+  background: #57ca0a;
+  cursor: pointer;
+  color: #f2f2f2;
 }
 
 #scores-container {
   display: flex;
   justify-content: center;
-  width: 100%;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 #scores-container li {
   list-style: none;
+  font-size: 1.5rem;
   margin: 0.1rem auto;
   padding: 0.3rem;
-  width: 100%;
+  border-radius: 5px;
+  width: 93%;
+  background-color: #d0ddcd;
+  color: #000;
+  transition: 0.7s;
 }
 
 #scores-container li:nth-child(2n + 2) {
-  background-color: #aaa;
+  background-color: #b48652;
+}
+
+@media only screen and (max-width: 600px) {
+  .leader-board {
+    grid-template-columns: 1fr;
+  }
 }

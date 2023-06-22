@@ -14,8 +14,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
+  - [� Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
@@ -24,7 +23,6 @@
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
-  - [🔭 Future Features ](#-future-features--1)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -32,9 +30,11 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-**Leaderboard-app**
-Is simple webpack which can be used as a starting point in projects
+**Leaderboard App**
+The Leaderboard App is a web application that allows users to track and compete for high scores in a game. It provides a leaderboard where users can view and submit their scores, creating a competitive environment among players.
 
+**Goal**
+The goal of the Leaderboard App is to create a platform where users can showcase their gaming skills and compete with others to achieve the highest scores. Players can submit their scores, view their own scores, as well as the scores of other players, and strive to reach the top of the leaderboard.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -58,9 +58,6 @@ Is simple webpack which can be used as a starting point in projects
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
--[coming soon]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,8 +125,6 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
