@@ -67,15 +67,10 @@ h1 {
   justify-content: center;
   align-items: center;
   position: relative;
-
-  /* margin: 1rem;
-  gap: 1rem; */
 }
 
 #form-input {
   margin: 1rem 0;
-
-  /* padding: 1rem 0; */
   max-width: 100%;
 }
 
@@ -120,10 +115,10 @@ h1 {
 
 #scores-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  max-height: 50vh;
+  overflow-y: scroll;
 }
 
 #scores-container li {
