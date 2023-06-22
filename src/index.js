@@ -3,12 +3,21 @@ import refreshScores from './modules/refreshScores.js';
 import submitScore from './modules/submitScore.js';
 import displayScores from './modules/displayScore.js';
 import { gameId } from './modules/api.js';
+import clearScores from './modules/clearScores.js';
 
 // Refresh score
 const refreshButton = document.getElementById('refresher');
 refreshButton.addEventListener('click', async () => {
   const scores = await refreshScores(gameId);
   displayScores(scores);
+});
+
+// Clear score
+const clearButton = document.getElementById('clear');
+clearButton.addEventListener('click', async () => {
+  await clearScores(gameId);
+  const scores = await refreshScores(gameId);
+  displayScores([]);
 });
 
 // Submit score
@@ -26,8 +35,13 @@ submitButton.addEventListener('click', async (e) => {
   scoreInput.value = '';
 });
 
-// call the function to create a new game when the page loads
+// call the function to display the scores from the api when the page loads
 window.addEventListener('load', async () => {
   const scores = await refreshScores(gameId);
-  displayScores(scores);
+  if (clearButton) {
+    displayScores([]);
+    clearScores();
+  } else {
+    displayScores(scores);
+  }
 });
