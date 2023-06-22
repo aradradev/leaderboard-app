@@ -24,7 +24,6 @@
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
-  - [🔭 Future Features ](#-future-features--1)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -62,7 +61,7 @@ The goal of the Leaderboard App is to create a platform where users can showcase
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
--[coming soon]()
+<!-- -[coming soon]() -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,8 +129,6 @@ To run tests, run the following command:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
