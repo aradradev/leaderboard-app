@@ -16,7 +16,6 @@ refreshButton.addEventListener('click', async () => {
 const clearButton = document.getElementById('clear');
 clearButton.addEventListener('click', async () => {
   await clearScores(gameId);
-  const scores = await refreshScores(gameId);
   displayScores([]);
 });
 
