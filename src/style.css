@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@ body {
   font-size: 20px;
 }
 
-h1{
+h1 {
   margin-top: 1rem;
   font-weight: 700;
 }
@@ -34,7 +35,7 @@ h1{
   margin-top: 2rem;
 }
 
-#recent-score{
+#recent-score {
   margin: 1rem;
   min-width: 100%;
 }
@@ -66,12 +67,14 @@ h1{
   justify-content: center;
   align-items: center;
   position: relative;
+
   /* margin: 1rem;
   gap: 1rem; */
 }
 
 #form-input {
   margin: 1rem 0;
+
   /* padding: 1rem 0; */
   max-width: 100%;
 }
@@ -83,6 +86,12 @@ h1{
   border-radius: 5px;
   outline: none;
   border: 1px solid snow;
+}
+
+#submit:hover {
+  background: #57ca0a;
+  cursor: pointer;
+  color: #f2f2f2;
 }
 
 #form-input #submit,
@@ -97,7 +106,6 @@ h1{
   transition: 0.7s;
 }
 
-#submit:hover,
 #refresher:hover {
   background: #57ca0a;
   cursor: pointer;
