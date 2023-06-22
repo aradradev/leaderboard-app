@@ -10,9 +10,8 @@ const createGame = async () => {
 
   const data = await response.json();
   const gameId = data.result.split(' ')[3];
-
   return gameId;
 };
-export const gameId = 'EAHeclczGK5W1kbc9Vj4';
+export const gameId = 'M8xA00Wa4pzZJNfSlKsJ';
 
 export default createGame;
