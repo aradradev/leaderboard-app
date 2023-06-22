@@ -1,5 +1,6 @@
+export const apiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
 const createGame = async () => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+  const response = await fetch(`${apiUrl}/games/`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
