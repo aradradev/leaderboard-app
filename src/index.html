@@ -21,8 +21,8 @@
         <article id="add-score">
             <p>Add your score</p>
             <form id="form-input">
-                <input type="text" id="name" placeholder="Your name" required>
-                <input type="number" id="score" placeholder="Your score" required> <br>
+                <input type="text" id="name" placeholder="Your name" minlength="5" maxlength="25" required>
+                <input type="number" id="score" placeholder="Your score" min="10" max="100" required> <br>
                 <button id="submit">Submit</button>
             </form>
         </article>

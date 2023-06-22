@@ -32,9 +32,11 @@
 
 # 📖 [Leaderboard] <a name="about-project"></a>
 
-**Leaderboard-app**
-Is simple webpack which can be used as a starting point in projects
+**Leaderboard App**
+The Leaderboard App is a web application that allows users to track and compete for high scores in a game. It provides a leaderboard where users can view and submit their scores, creating a competitive environment among players.
 
+**Goal**
+The goal of the Leaderboard App is to create a platform where users can showcase their gaming skills and compete with others to achieve the highest scores. Players can submit their scores, view their own scores, as well as the scores of other players, and strive to reach the top of the leaderboard.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
